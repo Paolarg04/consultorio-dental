@@ -3,42 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/sytle/style.css">
     <title>Consultorio Diente Feliz</title>
 </head>
-<body>
+<body class="">
+       <!-- Título--> 
+        <h1 style="text-align: center;">Consultorio Diente Feliz</h1>
+
+        <!-- Sección style para modificar títulos h2-->
+        <style>
+            h2{
+                color: cadetblue;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-align: center;
+                font-size: x-large;
+            }
+        </style>
+
         <!-- slogan -->
-        <h1>Consultorio Diente Feliz</h1>
         <h2>Porque tu sonrisa nos impulsa. Frescura como la brisa, en tu sonrisa.</h2> 
         
-        <p>En el Diente Feliz estamos comprometidos a proporcionar a los pacientes una mejor calidad de vida, cubriendo sus necesidades bucodentales a corto, medio y largo plazo. Además, el Diente Feliz busca la satisfacción tanto de pacientes, profesionales, colaboradores y proveedores.</p>
-        <img src="/imagenes/feliz1.png" alt="">
-        <img src="/imagenes/feliz2.png" alt="">
-        <img src="/imagenes/feliz3.png" alt="">
-        <img src="/imagenes/como-fidelizar-pacientes-clinica-dental-paciente-feliz.jpg" alt="" width="270">
-        <hr>
-        <h1>Dr. Jairo Campos</h1>
+        <p class="slogan" id="mision">En el Diente Feliz estamos comprometidos a proporcionar a los pacientes una mejor calidad de vida, cubriendo sus necesidades bucodentales a corto, medio y largo plazo. Además, en el "Diente Feliz" se busca la satisfacción tanto de pacientes, profesionales, colaboradores y proveedores.</p>
         <div>
-            <img src="/imagenes/1642203546828.jfif" alt="Dr. Jairo Campos" height="200" >
-        <h2>Estudios</h2> 
-            <p>Graduado de la Facultad de Odontología de la UNAM, <span style="color:brown;">generación 1961-1965, con cédula profesional 175385 D.G.P.</span>
-                Autorización COFEPRIS 213300201A1501 <br>  Miembro de la Asosciación Mexicana de Ortodoncia, el Colegio de Ortodoncistas A.C. y (Honorario) de la Asociación Hondureña de Ortodoncia (AHOR, 2017).</p>  
+        <img src="./assets/Imagenes/feliz1.png" alt="" class="genteFeliz">
+        <img src="./assets/Imagenes/feliz2.png" alt="" class="genteFeliz">
+        <img src="./assets/Imagenes/feliz3.png" alt="" class="genteFeliz">
+        <img src="./assets/Imagenes/como-fidelizar-pacientes-clinica-dental-paciente-feliz.jpg" alt="" width="270" class="genteFeliz">
         </div>
-        <p>Nuestros asociados en la salud dental:<br>
-            Para productos de higiene dental <br>
+        <hr>
+        <h1 class="biografia">Dr. Jairo Campos</h1>
+        <h2>Estudios</h2>
+        <div>
+            <img src="./assets/Imagenes/1642203546828.jfif" alt="Dr. Jairo Campos" height="200" id="doctor"> 
+            <p id="estudios">Graduado de la Facultad de Odontología de la UNAM, generación<span style="color:brown;"> 1961-1965</span>, con cédula profesional <span style="color:brown;">175385 D.G.P.</span>
+                Autorización COFEPRIS 213300201A1501 <br>  Miembro de la Asosciación Mexicana de Ortodoncia, el Colegio de Ortodoncistas A.C. y (Honorario) de la Asociación Hondureña de Ortodoncia (AHOR, 2017).</p> 
+           
+        </div>
+        <h3>Nuestros asociados en la salud dental:</h3>
+        <h4 style="color: blue;">Para productos de higiene dental: </h4>
+
+        <a href="https://dentamax.mx/?gclid=Cj0KCQjwuZGnBhD1ARIsACxbAViDrItC9sf7WWN18C2IxYeAXizqaUQnMgh0m0HIsq5NRdNWbe6zxeEaAgYkEALw_wcB" target="_blank" rel="external nofollow" >
+            <p>Asociado Dentamax</p>
+            <img src="./assets/Imagenes/Logo-Dentamax.png" alt="baby" width="150" class="imgLink"/><br/>
+        </a>
+
+        <a href="https://dental.com.mx/" target="_blank" rel="external nofollow">
+            <p>Asociado MDC</p>
+            <img src="./assets/Imagenes/LogoMDC.png" alt="baby" width="150" class="imgLink"/>  <br/>
+        </a>
+
+        <a href="https://www.radiologyinfo.org/es/info/panoramic-xray" target="_blank" rel="external nofollow">
+            <p>Asociado Radiolology</p>
+            <img src="./assets/Imagenes/RadiologyInfo_ParaPacientes.png" alt="baby" width="150" class="imgLink"/><br />
+        </a>
+
+
+
+        <!--
             <a href="https://dental.com.mx/" target="_blank">Asociado 1</a><br>
             <a href="https://dentamax.mx/?gclid=Cj0KCQjwuZGnBhD1ARIsACxbAViDrItC9sf7WWN18C2IxYeAXizqaUQnMgh0m0HIsq5NRdNWbe6zxeEaAgYkEALw_wcB" target="_blank">Asociado 2</a>
-            <br><br>
-            Para estudios radiológicos: <br>
+            <h4 style="color: blue">Para estudios radiológicos:</h4>
             <a href="https://www.radiologyinfo.org/es/info/panoramic-xray" target="_blank">Asociado 3</a>
-            </p>
-
+        -->
         
         <img src="" alt="">
 
 
-
-        <h1>Servicios</h1> 
-            <p>Ortodóncia & Odontología Integral</p> 
+        
+        <h1 id="servicios">Servicios</h1> 
+            <p id="tituloServicios">Ortodóncia & Odontología Integral</p> 
             <ol>
                 <li>Limpieza dental</li>
                 <li>Blanqueamientos</li>
@@ -54,7 +87,7 @@
             </ol>
 
 
-            <h1>Consejos del cuidado bucal</h1>
+            <h1 id="Consejos">Consejos del cuidado bucal</h1>
                 <ul>
                     <li>Cepillate los dientes y encias todos los dias</li>
                     <li>Escoge el cepillo y pasta adecuados</li>
@@ -63,16 +96,13 @@
                     <li>Visita tu dentista</li>
                 </ul>
 
-
-
-
-
-
-
-
-
-        <footer>
-            <a href="#">Contacto</a>
+        <footer style="text-align: center;">
+            
+                <a href="#" id="Contacto">Contacto</a>
+                <br>
+               <a href="/Acerca
+                    deNosotros" id="AcercaDeNosotros">Acerca de nosotros</a>
+    
         </footer>
 
 </body>

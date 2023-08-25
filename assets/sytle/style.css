@@ -1,0 +1,61 @@
+.slogan{
+    text-align: justify;
+    padding: 50px 50px 50px 50px;
+    background-color: rgb(137, 195, 192);
+    font-size: larger;
+
+}
+
+.genteFeliz{
+    border-radius: 150px;
+    padding: 25px 25px 25px 25px;
+    width: 30%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+#doctor{
+    border-radius: 150px;
+}
+
+.imgLink{
+    padding: 25px 25px 25px 25px;
+}
+
+footer{
+    background-color: cadetblue;
+    padding: 30px
+}
+
+#servicios{
+    text-align: center;
+    color: cadetblue;
+}
+
+ol{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+}
+
+#tituloServicios{
+    text-align: center;
+}
+
+#Consejos{
+    text-align: center;
+    color: cadetblue;
+}
+
+#Contacto{
+    color: white;
+}
+
+#AcercaDeNosotros{
+    color: white;
+}
