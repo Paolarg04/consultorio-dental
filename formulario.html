@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/sytle/formulario.css">
+</head>
+<body>
+    <h1>Agenda tu cita aqui</h1>
+    <form action="procesar_formulario" method="post">formulario Consultorio Dental</form>
+    <br>
+    <h3>Nombre del paciente</h3>
+    <input type="text" name="usuario" placeholder="Usuario">
+    <br>
+    <h4>Telefono (number)</h4>
+    <input type="number" name="Telefono">
+    <br>
+    <h4>Correo Electronico</h4>
+    <input type="email" name="correo" placeholder="correo@example.com" required>
+    <br>
+    <br>
+    <h4>Servicio</h4>
+    <select name="servicio" required>
+        <option value="Blanqueamientos">Blanqueamientos
+        </option>
+        <option value="Limpieza dental">Limpieza dental</option>
+        <option value="Brackets">Brackets</option>
+        <option value="Brackets porcelana">Brackets porcelana</option>
+        <option value="Rehabilitacion dental">Rehabilitacion dental</option>
+        <option value="Extraccion de molares">Extraccion de molares</option>
+        <option value="Puentes dentales">puentes dentales</option>
+        <option value="Coronas">Coronas</option>
+        <option value="Ortodoncia en adultos">Ortodoncia en adultos</option>
+        <option value="Placas">Placas</option>
+        <option value="Microimplantes">Microimplantes</option>
+
+      </select>
+    <br>
+    <h4>Fecha (date)</h4>
+    <input type="date" name="fecha">
+    <br>
+    <h4>Hora (time)</h4>
+    <input type="time" name="hora">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comentarios</h3>
+    <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea>
+    <h4>Enviar</h4>
+    <form action="/procesar_formulario" method="post"><input type="submit" value="Enviar">
+    </form>
+    <br>
+    <br>
+
+
+
+
+
+
+
+</body>
+</html>
