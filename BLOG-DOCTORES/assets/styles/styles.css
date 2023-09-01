@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: cadetblue;
+}
+
+img{
+    width: 300px;
+}
+footer{
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+}
