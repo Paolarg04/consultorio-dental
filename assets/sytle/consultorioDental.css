@@ -1,0 +1,156 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#titulo {
+    font-family: 'Montserrat';
+    color: white;
+    text-align: center;
+
+}
+
+
+/* Estilos para la barra de navegación */
+.custom-navbar {
+    background-color: rgb(22, 183, 119);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+#containerLogo {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: large;
+}
+
+.containerProfile {
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.perfil {
+    width: 50px;
+    border-radius: 30%;
+}
+
+.config-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgb(22, 183, 119);
+    box-shadow: 0 0 10px rgb(156, 216, 156);
+    z-index: 1;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.config-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 260px;
+}
+
+.config-menu ul li {
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.config-menu ul li:hover {
+    background-color: rgb(138, 220, 138);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.config-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+}
+
+
+.config-menu ul hr {
+    margin: 5px 0;
+    border: solid 2px rgb(10, 110, 10);
+    margin-inline: 10px 30px;
+}
+
+
+/*termina el menu desplegable*/
+
+
+#carouselExampleRide {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.parraf {
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: x-large;
+    padding: 15px;
+    /* animation: ledBlink 1s linear infinite;
+    text-shadow: 3px 3px 10px #df3ec7; */
+}
+
+.doctor {
+    width: 400px;
+}
+
+h3 {
+    color: rgb(0, 117, 25);
+}
+
+#desc {
+    color: black;
+    font-size: large;
+}
+
+
+
+.centered-hr {
+    border: 3px solid rgb(11, 121, 7);
+    width: 600px;
+    margin: 20px auto;
+}
+
+
+
+footer {
+    background-color: rgb(22, 183, 119);
+    text-align: center;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+@keyframes ledBlink{ 
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+*/

@@ -6,8 +6,60 @@
     <link rel="stylesheet" href="./assets/sytle/style.css">
     <title>Consultorio Diente Feliz</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 </head>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary"> <!--Aqui comienza la barra de navegacion-->
+    <img id="logo" src="./assets/imagenes/diente-logo.png"> <!--Imagen del logo-->
+    <div class="container-fluid"> <!--abre primer div-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> <!--tipo de botones asignados en el nav bar-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--comienza primer div para lista de la nav bar-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!--lista de navegacion-->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Incio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/CONSULTORIO-DENTAL/AcercaDe.html" target="_blank">Acerca de
+                        nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/CONSULTORIO-DENTAL/index.html" target="_blank">Más servicios</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Más opciones
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/formulario_consultorio.html"
+                                target="_blank">Valoración</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://www.google.com/maps/place/Imagen+Dental/@25.6504933,-100.1122065,17z/data=!3m2!4b1!5s0x8662c2e4c320a8ed:0x99d34eaedcba145b!4m6!3m5!1s0x8662c2e4ff9e811f:0x806f39ea8278cf01!8m2!3d25.6504933!4d-100.1122065!16s%2Fg%2F11b6y_2lyy?entry=tts&shorturl=1"
+                                target="_blank">Ubicaciónes</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=528183707080"
+                                target="_blank">Contactanos</a></li>
+                    </ul>
+                </li>
+
+            </ul> <!--Finaliza lista que contiene items de navegacion-->
+            <form class="d-flex" role="search"> <!--barra de busqueda-->
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <!--input para barra de busqueda-->
+                <button class="submit" type="submit">Buscar</button> <!--boton para buscador-->
+            </form>
+        </div><!--termina div para lista de la nav bar-->
+    </div> <!--Aqui termina el primer div-->
+</nav> <!--Aqui termina la barra de navegacion-->
 <body class="">
        <!-- Título--> 
         <h1 style="text-align: center;">Consultorio Diente Feliz</h1>
@@ -25,8 +77,13 @@
         <!-- slogan -->
         <h2>Porque tu sonrisa nos impulsa. Frescura como la brisa, en tu sonrisa.</h2> 
         
+
+        <br>
+        <nav> 
+        
         <p class="slogan" id="mision">En el Diente Feliz estamos comprometidos a proporcionar a los pacientes una mejor calidad de vida, cubriendo sus necesidades bucodentales a corto, medio y largo plazo. Además, en el "Diente Feliz" se busca la satisfacción tanto de pacientes, profesionales, colaboradores y proveedores.</p>
-        <div>
+        
+        </nav>
         <img src="./assets/Imagenes/feliz1.png" alt="" class="genteFeliz">
         <img src="./assets/Imagenes/feliz2.png" alt="" class="genteFeliz">
         <img src="./assets/Imagenes/feliz3.png" alt="" class="genteFeliz">
@@ -127,8 +184,7 @@
             
                 <a href="./formulario.html" target="_blank">Agenda tu cita AQUI</a> 
                 <br>
-               <a href="/Acerca
-                    deNosotros" id="AcercaDeNosotros">Acerca de nosotros</a>
+               <a href="/AcercadeNosotros" id="AcercaDeNosotros">Acerca de nosotros</a>
     
         </footer>
 
